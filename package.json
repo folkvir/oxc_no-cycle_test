@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc --build --clean",
     "eslint": "eslint --ext .ts .",
-    "oxlint": "~/Documents/github/oxc/target/release/oxlint --import-plugin -D no-cycle -c .eslintrc.json --tsconfig tsconfig.json"
+    "oxlint": "oxlint --import-plugin -D no-cycle -c .eslintrc.json --tsconfig tsconfig.json"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "eslint": "^8.57.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
+    "oxlint": "^0.3.1",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.7.1"
   }
